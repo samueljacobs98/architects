@@ -1,0 +1,21 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-transform: uppercase;
+  margin: var(--margin) 0;
+  &__email {
+    font-size: var(--font-size-page-title);
+    color: inherit;
+    margin-bottom: var(--margin-small);
+    &:visited {
+      color: inherit;
+    }
+  }
+
+  &__text {
+    &:first-of-type {
+      margin-bottom: 6px;
+    }
+  }
+}

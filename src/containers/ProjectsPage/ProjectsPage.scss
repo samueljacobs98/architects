@@ -1,0 +1,7 @@
+.projects {
+  margin-top: calc(var(--margin) + 1rem);
+  margin-bottom: var(--margin);
+  display: grid;
+  justify-content: center;
+  row-gap: var(--margin);
+}

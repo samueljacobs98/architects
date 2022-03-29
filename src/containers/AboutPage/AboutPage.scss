@@ -1,0 +1,12 @@
+.about {
+  border-bottom: var(--border);
+  &__text {
+    margin-top: calc(var(--margin) * 3 / 4);
+    margin-bottom: var(--margin);
+    font-weight: bold;
+    line-height: 150%;
+    &--orange {
+      color: var(--colour-text-accent);
+    }
+  }
+}

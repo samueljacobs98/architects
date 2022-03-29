@@ -1,0 +1,7 @@
+.page-heading {
+  text-transform: uppercase;
+  &__heading {
+    text-align: left;
+    font-size: var(--font-size-page-title);
+  }
+}
