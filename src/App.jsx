@@ -1,4 +1,5 @@
 import "./App.scss";
+// import useWindowSize from "./assets/hooks/useWindowSize.js";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import AboutPage from "./containers/AboutPage/AboutPage";

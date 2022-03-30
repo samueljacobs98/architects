@@ -1,7 +1,50 @@
 .projects {
   margin-top: calc(var(--margin) + 1rem);
   margin-bottom: var(--margin);
-  display: grid;
-  justify-content: center;
-  row-gap: var(--margin);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--margin);
+}
+
+@media screen and (min-width: 768px) {
+  .projects {
+    flex-flow: column wrap;
+    align-content: center;
+
+    height: 1000px;
+
+    .project {
+      &:nth-child(odd) {
+        order: 1;
+      }
+      &:nth-child(even) {
+        order: 2;
+      }
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      flex-basis: 100%;
+      width: 0;
+      order: 2;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projects {
+    height: 1200px;
+
+    .project {
+      &:nth-child(odd) {
+        max-width: 400px;
+      }
+      &:nth-child(even) {
+        max-width: calc(400px * 1.2);
+      }
+    }
+  }
 }

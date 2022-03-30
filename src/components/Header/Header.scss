@@ -13,9 +13,29 @@
     font-weight: 500;
     text-transform: uppercase;
   }
+
+  &__nav {
+    display: flex;
+    gap: 60px;
+    &-item {
+      list-style-type: none;
+      text-transform: uppercase;
+      font-weight: 500;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
   &__menu-button {
     &:hover {
       cursor: pointer;
     }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 25px 75px;
   }
 }
