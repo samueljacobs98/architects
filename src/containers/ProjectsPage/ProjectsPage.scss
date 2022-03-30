@@ -24,8 +24,7 @@
       }
     }
 
-    &::before,
-    &::after {
+    &::before {
       content: "";
       flex-basis: 100%;
       width: 0;
@@ -36,14 +35,30 @@
 
 @media screen and (min-width: 1024px) {
   .projects {
-    height: 1200px;
+    height: 1250px;
 
     .project {
       &:nth-child(odd) {
-        max-width: 400px;
+        width: 37%;
+        max-width: calc(600px / 1.2);
       }
       &:nth-child(even) {
-        max-width: calc(400px * 1.2);
+        width: calc(37% * 1.2);
+        max-width: 600px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .projects {
+    height: 1600px;
+    .project {
+      &:nth-child(odd) {
+        max-width: calc(700px / 1.2);
+      }
+      &:nth-child(even) {
+        max-width: 700px;
       }
     }
   }

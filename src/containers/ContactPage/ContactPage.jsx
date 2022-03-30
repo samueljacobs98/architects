@@ -6,8 +6,10 @@ const ContactPage = () => {
       <a href="mailto:" className="contact__email">
         hi@abbeyarch.com
       </a>
-      <p className="contact__text">General Inquiries</p>
-      <p className="contact__text">+44 1632 960282</p>
+      <div className="contact__container">
+        <p className="contact__container-text">General Inquiries</p>
+        <p className="contact__container-text">+44 1632 960282</p>
+      </div>
     </div>
   );
 };
