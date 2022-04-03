@@ -6,7 +6,11 @@ import "./AboutPage.scss";
 const AboutPage = () => {
   return (
     <div className="about">
-      <PageHeading heading={"About abbey studio"} />
+      <PageHeading
+        heading={"About abbey studio"}
+        spanText={" ●ABOUT "}
+        text={"/142"}
+      />
       <div className="about__content">
         {useWindowSize(768) && (
           <img className="about__content-img" src={est2012} alt="" />
