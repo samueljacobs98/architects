@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/architects/static/css/main.08d9cba7.css",
-    "main.js": "/architects/static/js/main.fbadf5f9.js",
+    "main.css": "/architects/static/css/main.126b0d9f.css",
+    "main.js": "/architects/static/js/main.db206668.js",
     "static/js/787.9ce90003.chunk.js": "/architects/static/js/787.9ce90003.chunk.js",
     "static/media/imgCard3.png": "/architects/static/media/imgCard3.6f1b59cdff0c34a2dbc2.png",
     "static/media/imgCard2.png": "/architects/static/media/imgCard2.d56e6ea3e57621c9fbe9.png",
@@ -10,12 +10,12 @@
     "static/media/est2012.svg": "/architects/static/media/est2012.278ad764b4a9f81ddb46f0c62eb18fab.svg",
     "static/media/menu-button.svg": "/architects/static/media/menu-button.af078a34ada38d7ecd15c28db226f667.svg",
     "index.html": "/architects/index.html",
-    "main.08d9cba7.css.map": "/architects/static/css/main.08d9cba7.css.map",
-    "main.fbadf5f9.js.map": "/architects/static/js/main.fbadf5f9.js.map",
+    "main.126b0d9f.css.map": "/architects/static/css/main.126b0d9f.css.map",
+    "main.db206668.js.map": "/architects/static/js/main.db206668.js.map",
     "787.9ce90003.chunk.js.map": "/architects/static/js/787.9ce90003.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08d9cba7.css",
-    "static/js/main.fbadf5f9.js"
+    "static/css/main.126b0d9f.css",
+    "static/js/main.db206668.js"
   ]
 }
